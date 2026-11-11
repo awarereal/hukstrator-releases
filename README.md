@@ -3,18 +3,15 @@
 Windows builds of **HukStrator**, a vector illustration app. This repository holds the published
 installers and portable builds only; download them from
 [Releases](https://github.com/awarereal/hukstrator-releases/releases/latest). HukStrator's built-in
-updater checks this page for new versions.
+updater checks this page for new versions and installs them.
 
 | File | What |
 |---|---|
-| `vectorcraft-<version>-windows-x64.msi` | Installer. Choose "Only for me" (no administrator permission, `%LOCALAPPDATA%\Programs\HukStrator`) or "Everyone" (`C:\Program Files\HukStrator`). |
-| `vectorcraft-<version>-windows-x64-portable.zip` | Portable build: unzip anywhere and run `vectorcraft.exe`; settings stay in the folder. |
+| `hukstrator-<version>-windows-x64.msi` | Installer. Choose "Only for me" (no administrator permission, `%LOCALAPPDATA%\Programs\HukStrator`) or "Everyone" (`C:\Program Files\HukStrator`). |
+| `hukstrator-<version>-windows-x64-portable.zip` | Portable build: unzip anywhere and run `HukStrator.exe`; its settings stay in `HukStratorData` beside it. |
 | `SHA256SUMS.txt` | SHA-256 checksum of each file. |
 
-The file and program names keep the `vectorcraft` prefix of the project HukStrator is based on; the
-updater relies on it.
-
-The builds are not code-signed yet, so Windows SmartScreen may show a warning the first time
+If a build is not code-signed, Windows SmartScreen may show a warning the first time
 ("More info" › "Run anyway").
 
 ## Licence
